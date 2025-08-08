@@ -87,6 +87,9 @@ public class KinectManager : MonoBehaviour
         // TODO: Get body data from Kinect
         // TODO: Extract head position and rotation
         // TODO: Send data to HeadTracker
+        
+        // For now, this will be handled by MockKinectData during development
+        // The actual Kinect SDK integration will replace this placeholder
     }
     
     void OnDestroy()
