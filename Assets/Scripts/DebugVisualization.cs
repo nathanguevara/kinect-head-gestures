@@ -81,7 +81,8 @@ public class DebugVisualization : MonoBehaviour
             
             LineRenderer lr = axisObject.AddComponent<LineRenderer>();
             lr.material = new Material(Shader.Find("Sprites/Default"));
-            lr.color = axisColors[i];
+            lr.startColor = axisColors[i];
+            lr.endColor = axisColors[i];
             lr.startWidth = 0.02f;
             lr.endWidth = 0.02f;
             lr.positionCount = 2;
